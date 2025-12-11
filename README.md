@@ -3,16 +3,22 @@
 A lightweight workflow/graph engine built using Python and FastAPI, supporting nodes, edges, branching, looping, and simple tool execution. This project demonstrates how an “agent-like” workflow system can be structured using clean Python modules.
 
 
+
 **Features**
+
 
 
 1. Minimal Workflow / Graph Engine
 
 
 Nodes = Python functions that read/modify shared state
+
 Edges = Define execution order
+
 Conditional branching
+
 Looping until a condition is met
+
 Clean execution log + run state tracking
 
 

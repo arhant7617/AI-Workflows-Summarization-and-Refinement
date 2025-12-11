@@ -21,14 +21,16 @@ A lightweight workflow/graph engine built using Python and FastAPI, supporting n
    Clean execution log + run state tracking
 
 
-2. Simple Tool Registry
+<ins>2.Simple Tool Registry</ins>
 
 
 Register any Python function as a tool
+
 Nodes can call tools using the registry
 
 
 3. FastAPI Endpoints
+
 
     **Endpoint**                              **Description**
 POST /graph/create	                  Create a new workflow graph

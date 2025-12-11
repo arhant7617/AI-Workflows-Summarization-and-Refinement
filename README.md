@@ -46,21 +46,21 @@ A lightweight workflow/graph engine built using Python and FastAPI, supporting n
 **Installation & Running the Project**
 
 
-		<ins>Clone the Repository</ins>
+<ins>Clone the Repository</ins>
 		git clone https://github.com/<your-username>/AiWorkflowAssignment.git
 		cd AiWorkflowAssignment
 		
-		<ins>Create & Activate Virtual Environment</ins>
+<ins>Create & Activate Virtual Environment</ins>
 		python -m venv .venv
 		.venv\Scripts\activate
 		
-		<ins>Install Requirements</ins>
+<ins>Install Requirements</ins>
 		pip install -r requirements.txt
 		
-		<ins>Run FastAPI Server</ins>
+<ins>Run FastAPI Server</ins>
 		uvicorn app.main:app --reload
 		
-		<ins>Open API Docs</ins>
+<ins>Open API Docs</ins>
 		Go to:
 		http://127.0.0.1:8000/docs
 

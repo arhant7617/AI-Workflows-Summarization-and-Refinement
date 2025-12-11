@@ -15,13 +15,11 @@ A lightweight workflow/graph engine built using Python and FastAPI, supporting n
 		Looping until a condition is met      
 		Clean execution log + run state tracking
 
+	2.Simple Tool Registry:
 
-<ins>2.Simple Tool Registry</ins>
 
-
-Register any Python function as a tool
-
-Nodes can call tools using the registry
+		Register any Python function as a tool
+		Nodes can call tools using the registry
 
 
 3. FastAPI Endpoints

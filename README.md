@@ -109,3 +109,5 @@ Example JSON for running:
 		Built-in monitoring dashboard
 
 ![Uvicorn-img](https://github.com/arhant7617/AiWorkflowAssignment/blob/main/ss1.png)
+
+![FastAPI-Endpoints](https://github.com/arhant7617/AiWorkflowAssignment/blob/main/ss3.png)

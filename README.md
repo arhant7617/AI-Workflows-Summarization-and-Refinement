@@ -32,15 +32,15 @@ A lightweight workflow/graph engine built using Python and FastAPI, supporting n
 
 
 **PROJECT STRUCTURE**
-'''
-   app/
-   │── engine.py         # Core workflow engine (nodes, edges, branching, loops)
-   │── tools.py          # Tool registry + example tools
-   │── models.py         # Pydantic models for state + API schemas
-   │── workflows.py      # Example workflow definition
-   │── main.py           # FastAPI API routes
-   │── __init__.py                      
-'''
+
+	   app/
+	   │── engine.py         # Core workflow engine (nodes, edges, branching, loops)
+	   │── tools.py          # Tool registry + example tools
+	   │── models.py         # Pydantic models for state + API schemas
+	   │── workflows.py      # Example workflow definition
+	   │── main.py           # FastAPI API routes
+	   │── __init__.py                      
+
 
 **Installation & Running the Project**
 

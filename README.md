@@ -66,46 +66,44 @@ A lightweight workflow/graph engine built using Python and FastAPI, supporting n
 
 **Example Workflow**
 
-
-The repository includes an example workflow where:
-
-
-Nodes perform simple state updates
-1. A tool analyzes data
-2. The workflow branches based on conditions
-3. A loop continues until a state value meets a threshold
+		The repository includes an example workflow where:
+		
+		Nodes perform simple state updates
+		1. A tool analyzes data
+		2. The workflow branches based on conditions
+		3. A loop continues until a state value meets a threshold
 
 
 Example JSON for running:
 
 
-{
-  "graph_id": "example_graph",
-  "initial_state": {
-    "value": 0
-  }
-}
+		{
+		  "graph_id": "example_graph",
+		  "initial_state": {
+		    "value": 0
+		  }
+		}
 
 
 **What This Engine Supports:**
 
 
-Core Supported Features
-Sequential node execution
-Directed node-edge mapping
-Conditional branching
-Looping logic
-Tool registry for extending functionality
-Run logging + state tracking
+		Core Supported Features
+		Sequential node execution
+		Directed node-edge mapping
+		Conditional branching
+		Looping logic
+		Tool registry for extending functionality
+		Run logging + state tracking
 
 
 **What Could Improve With More Time**
 
 
-Visual UI for designing workflows
-Parallel node execution
-Database-backed state storage
-Hot-reloadable workflows
-More robust error handling
-Support for asynchronous nodes
-Built-in monitoring dashboard
+		Visual UI for designing workflows
+		Parallel node execution
+		Database-backed state storage
+		Hot-reloadable workflows
+		More robust error handling
+		Support for asynchronous nodes
+		Built-in monitoring dashboard

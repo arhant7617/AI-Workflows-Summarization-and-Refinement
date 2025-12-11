@@ -31,6 +31,7 @@ GET /graph/state/{run_id}	            Fetch current workflow state
 
 
 **PROJECT STRUCTURE**
+'''
    app/
    │── engine.py         # Core workflow engine (nodes, edges, branching, loops)
    │── tools.py          # Tool registry + example tools
@@ -38,7 +39,7 @@ GET /graph/state/{run_id}	            Fetch current workflow state
    │── workflows.py      # Example workflow definition
    │── main.py           # FastAPI API routes
    │── __init__.py                      
-
+'''
 
 **Installation & Running the Project**
 
@@ -74,14 +75,14 @@ Nodes perform simple state updates
 
 
 Example JSON for running:
-'''
+
+
 {
   "graph_id": "example_graph",
   "initial_state": {
     "value": 0
   }
 }
-'''
 
 
 **What This Engine Supports:**
